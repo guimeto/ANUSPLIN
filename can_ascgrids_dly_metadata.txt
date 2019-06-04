@@ -1,0 +1,32 @@
+Gridded 10km Canada Daily Temperature and Precipitation Dataset
+ID DATA:  PCP_DLY_1950_2015.tar, MAX_DLY_1950_2015.tar, MIN_DLY_1950_2015.tar
+VERSION: ANUSPLIN V4.5 20170806
+ORIGINATOR: LANDSCAPE ANALYSIS AND APPLICATION SECTION (LAAS)
+  GREAT LAKES FORESTRY CENTRE (GLFC), CANADIAN FOREST SERVICE (CFS), 
+  NATURAL RESOURCES CANADA (NRCAN)
+ID PARAMETERS:  pcp, max, min 
+TIME INTERVAL: DAILY
+PERIOD:  1950-2017
+
+SPATIAL FORMAT: GRID
+DATA FORMAT: ARC/Info ASCIIGRID 
+GRIDS DATUM: GEOGRAPHIC NAD83
+SPATIAL RESOLUTION: 300 arc-second (~10 km)
+GRIDS DOMAIN: 141.0 to 52.0W, 41.0 to 83.499N 
+ESRI ASCII RASTER FORMAT:
+NCOLS   1068
+NROWS    510
+XLLCORNER  -141.0
+YLLCORNER    41.0
+CELLSIZE 0.08333333767 
+NODATA VALUE -999
+
+
+Units: 
+Temperature, Celsius degrees
+Precipitation, millimeters (mm)
+
+Note;
+All years were formatted as leap years with 29 days for February. The asciigrids for Julian day 60 are missing in the non-leap years.
+The geographic.prj were included
+The data quality over the latitude GT 60.0 is questionable.
